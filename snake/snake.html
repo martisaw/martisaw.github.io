@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>martisaw.github.io</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="snake.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <script defer src="snake.dart.js"></script>
+</head>
+
+<body>
+    <div class="spacer"></div>
+    <div class="content">
+        <div class="flex-container-vert">
+            <div><b>Get 50 points to access my website.</b></div>
+            <div id="snake" class="tooltip">🐍<span class="tooltiptext">Sss double click me ssS</span></div>
+            <canvas id="snakeboard" width="300" height="300">
+                Your Browser cannot display Canvas.
+            </canvas>
+            <div class="flex-container-hori">
+                <svg id="up" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-caret-up-square-fill"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 9a.5.5 0 0 1-.374-.832l4-4.5a.5.5 0 0 1 .748 0l4 4.5A.5.5 0 0 1 12 11H4z" />
+                </svg>
+            </div>
+            <div class="flex-container-hori">
+                <svg id="left" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-caret-up-square-fill"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 9a.5.5 0 0 1-.374-.832l4-4.5a.5.5 0 0 1 .748 0l4 4.5A.5.5 0 0 1 12 11H4z" />
+                </svg>
+                <!--Helper DIV-->
+                <div style="width: 3em;"></div>
+                <svg id="right" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-caret-up-square-fill"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 9a.5.5 0 0 1-.374-.832l4-4.5a.5.5 0 0 1 .748 0l4 4.5A.5.5 0 0 1 12 11H4z" />
+                </svg>
+            </div>
+            <div class="flex-container-hori">
+                <svg id="down" width="3em" height="3em" viewBox="0 0 16 16" class="col-auto bi bi-caret-up-square-fill"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 9a.5.5 0 0 1-.374-.832l4-4.5a.5.5 0 0 1 .748 0l4 4.5A.5.5 0 0 1 12 11H4z" />
+                </svg>
+            </div>
+        </div>
+        <div class="custom-width flex-container-vert">
+            <div class="flex-container-hori">
+                <small>You can use your <b>ARROW KEYS</b> or the <b>BUTTONS</b>.</small>
+            </div>
+            <div class="custom-width flex-container-hori">
+                <small>Got the inspiration for the snake game from <a id="greyLink" style="padding: 0;"
+                    href="https://www.educative.io/blog/javascript-snake-game-tutorial"><b>here</b></a>.</small>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="flex-container-vert">
+            <div id="footer-line"></div>
+            <div class="flex-container-hori">
+                <small><i>This website was made with Dart, HTML and CSS.</i></small>
+            </div>
+            <div class="flex-container-hori">
+                <a id="greyLink" href="../legal/imprint.html"><small>Imprint</small></a>
+                <a id="greyLink" href="../legal/privacy.html"><small>Privacy</small></a>
+                <a id="greyLink" href="../legal/license.html"><small>License</small></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

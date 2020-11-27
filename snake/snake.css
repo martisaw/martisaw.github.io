@@ -1,0 +1,141 @@
+.spacer {
+    height: 10%;
+}
+.content {
+    min-height: 80%;
+}
+.footer {
+    height: 10%;
+}
+.flex-container-vert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3em;
+}
+.flex-container-hori {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -70px; /*half the width*/
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+}
+  
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.footer {
+    padding: 0% 10% 0% 10%;
+}
+
+small {
+    text-align: center;
+}
+
+#footer-line {
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+    padding-bottom: 1em;
+}
+
+.footer > .flex-container-vert > div {
+    padding-bottom: 1em;
+
+}
+
+.footer > .flex-container-vert {
+    padding-bottom: 0em;
+}
+
+#greyLink {
+    padding: 0em 0.5em 0em 0.5em;
+    color: black;
+}
+
+#greyLink:link {
+    text-decoration: none;   
+}
+#greyLink:visited {
+    text-decoration: none;   
+}
+#greyLink:hover {
+    color: grey;
+    text-decoration: none;   
+}
+#greyLink:active {
+    text-decoration: none;   
+}
+
+#snake:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    cursor: default;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+  
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#down {
+    transform: rotate(180deg) ;
+}
+#right {
+    
+    transform: rotate(90deg) ;
+}
+#left {
+    transform: rotate(270deg) ;
+}
+
+#snakeboard {
+    padding-bottom: 1em;
+}
+
+.custom-width {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.custom-width > div {
+    padding-top: 1em;
+}

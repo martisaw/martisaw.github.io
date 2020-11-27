@@ -1,0 +1,108 @@
+#body {
+    display: none;
+}
+
+.spacer {
+    height: 10%;
+}
+.content {
+    min-height: 80%;
+}
+.footer {
+    height: 10%;
+}
+
+#hidden-message {
+    border-radius: 10px;
+    background-color:#dee2e6;
+    padding: 0.5em;
+    margin: 0.5em 10% 0.5em 10%;
+    text-align: center;
+    display: none;
+}
+
+.flex-container-vert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3em;
+}
+.flex-container-hori {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#profilePic {
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+}
+
+svg {
+    padding-right: 0.2em;
+  }
+
+#socialLink > img {
+    height: 2em;
+    width: auto;
+    padding: 0em 0.2em 0em 0.2em;
+}
+
+#socialLink:link {
+    text-decoration: none;   
+}
+#socialLink:visited {
+    text-decoration: none;   
+}
+#socialLink:hover {
+    text-decoration: none;   
+}
+#socialLink:active {
+    text-decoration: none;   
+}
+
+.footer {
+    padding: 0% 10% 0% 10%;
+}
+
+small {
+    text-align: center;
+}
+
+#footer-line {
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+    padding-bottom: 1em;
+}
+
+.footer > .flex-container-vert > div {
+    padding-bottom: 1em;
+
+}
+
+.footer > .flex-container-vert {
+    padding-bottom: 0em;
+}
+
+#greyLink {
+    padding: 0em 0.5em 0em 0.5em;
+    color: black;
+}
+
+#greyLink:link {
+    text-decoration: none;   
+}
+#greyLink:visited {
+    text-decoration: none;   
+}
+#greyLink:hover {
+    color: grey;
+    text-decoration: none;   
+}
+#greyLink:active {
+    text-decoration: none;   
+}
