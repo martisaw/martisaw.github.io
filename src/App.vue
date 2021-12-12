@@ -19,7 +19,8 @@ import Welcome from './components/Welcome.vue'
     <div>Imprint</div>
     <div>Privacy</div>
   </div>
-  <NavBar class="sticky bottom-0"></NavBar>
+  <!--<NavBar class="sticky bottom-0"></NavBar>-->
+  <NavBar></NavBar>
   
   
 </template>
