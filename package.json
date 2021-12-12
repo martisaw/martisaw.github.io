@@ -15,7 +15,6 @@
     "vite": "^2.7.0"
   },
   "scripts": {
-    "tailwindcss": "npx tailwindcss -i ./tailwindcss/input.css -o ./styles.css --watch",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
