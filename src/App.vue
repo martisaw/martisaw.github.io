@@ -15,9 +15,9 @@ import Welcome from './components/Welcome.vue'
   </div>
   
   <router-view></router-view>
-  <div class="bg-gray-900 text-white p-2">
-    <div>Imprint</div>
-    <div>Privacy</div>
+  <div class="bg-gray-900 text-white p-2 grid justify-items-center">
+    <div class=""><router-link class="" to="/">Imprint</router-link></div>
+    <div class=""><router-link class="" to="/">Privacy</router-link></div>
   </div>
   <!--<NavBar class="sticky bottom-0"></NavBar>-->
   <NavBar></NavBar>
