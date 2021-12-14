@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory, createWebHistory } from "vue-router
 import Home from "../views/Home.vue"
 import About from "../views/About.vue"
 import Privacy from "../views/Privacy.vue"
+import Imprint from "../views/Imprint.vue"
 
 const routes = [
     {
@@ -18,6 +19,12 @@ const routes = [
         path: '/privacy',
         name: 'Privacy',
         component: Privacy
+    }
+    ,
+    {
+        path: '/imprint',
+        name: 'Imprint',
+        component: Imprint
     }
 ]
 

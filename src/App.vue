@@ -20,7 +20,7 @@ import Welcome from './components/Welcome.vue'
   
   <router-view></router-view>
   <div class="bg-gray-900 text-white p-2 grid justify-items-center">
-    <div class=""><router-link class="" to="/">Imprint</router-link></div>
+    <div class=""><router-link class="" to="/imprint">Imprint</router-link></div>
     <div class=""><router-link class="" to="/privacy">Privacy</router-link></div>
   </div>
   <!--<NavBar class="sticky bottom-0"></NavBar>-->
