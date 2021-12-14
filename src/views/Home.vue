@@ -1,10 +1,10 @@
 <script setup>
 import Welcome from '../components/Welcome.vue'
-import strawCup from '../assets/DSC05029.jpg'
-import straw from '../assets/DSC05025.jpg'
-import cup from '../assets/DSC05041.jpg'
-import toothbrush from '../assets/DSC05037.jpg'
-import mask from '../assets/DSC05033.jpg'
+import strawCup from '../assets/DSC05029_mobile.jpg'
+import straw from '../assets/DSC05025_mobile.jpg'
+import cup from '../assets/DSC05041_mobile.jpg'
+import toothbrush from '../assets/DSC05037_mobile.jpg'
+import mask from '../assets/DSC05033_mobile.jpg'
 </script>
 
 <template>
