@@ -9,7 +9,7 @@ import Welcome from './components/Welcome.vue'
   
   
   <div class="p-2 grid grid-cols-3">
-    <div class="text-left font-bold">env42day</div>
+    <div class="text-left font-bold"><router-link class="" to="/">env42day</router-link></div>
     <div class="text-center">
       <!--Placeholder for logo-->
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
