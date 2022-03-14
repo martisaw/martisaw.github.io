@@ -13,7 +13,7 @@ defineProps({
         <img class="rounded-lg" :src="img">
         
         <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <div class="bg-gray-900 bg-opacity-50 rounded-md px-2 text-white font-bold text-3xl">{{text}}</div>
+          <div class="bg-gray-900 bg-opacity-50 rounded-md px-2 text-white font-bold text-2xl">{{text}}</div>
         </div>
         <div class="absolute bottom-2 right-2">
           <div class="bg-white rounded-md p-1 font-bold inline-flex items-center space-x-1">
