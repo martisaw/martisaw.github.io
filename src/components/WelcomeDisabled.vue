@@ -8,8 +8,8 @@ defineProps({
 </script>
 
 <template>
-<router-link to="/" class="group">
-    <div class="relative m-2 max-w-lg">
+<router-link to="/" class="group sm:max-w-xs md:max-w-sm lg:max-w-lg xl:max-w-xl">
+    <div class="relative m-2">
         <img class="rounded-lg" :src="img">
         
         <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">

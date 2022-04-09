@@ -9,13 +9,13 @@ import mask from '../assets/DSC05033_mobile.jpg'
 </script>
 
 <template>
-  <div class="flex justify-center">
-    <div class="flex flex-wrap justify-center max-w-6xl">
-      <WelcomeDisabled href="" :img="strawCup" text="The Manifest"></WelcomeDisabled>
-      <WelcomeDisabled href="" :img=straw text="How it works"></WelcomeDisabled>
-      <WelcomeDisabled href="" :img=cup text="Trashwall"></WelcomeDisabled>
-      <WelcomeDisabled href="" :img=toothbrush text="Contribute"></WelcomeDisabled>
-      <WelcomeDisabled href="" :img=mask text="About us"></WelcomeDisabled>
-    </div>
+<div class="flex justify-center">
+  <div class="flex flex-wrap justify-center max-w-7xl">
+    <WelcomeDisabled href="" :img="strawCup" text="The Manifest"></WelcomeDisabled>
+    <WelcomeDisabled href="" :img=straw text="How it works"></WelcomeDisabled>
+    <WelcomeDisabled href="" :img=cup text="Trashwall"></WelcomeDisabled>
+    <WelcomeDisabled href="" :img=toothbrush text="Contribute"></WelcomeDisabled>
+    <WelcomeDisabled href="" :img=mask text="About us"></WelcomeDisabled>
   </div>
+</div>
 </template>
