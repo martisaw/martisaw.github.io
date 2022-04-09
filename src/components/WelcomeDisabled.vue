@@ -9,7 +9,7 @@ defineProps({
 
 <template>
 <router-link to="/" class="group">
-    <div class="relative m-2">
+    <div class="relative m-2 max-w-lg">
         <img class="rounded-lg" :src="img">
         
         <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
