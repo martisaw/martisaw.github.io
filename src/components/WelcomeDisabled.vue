@@ -10,10 +10,12 @@ defineProps({
 <template>
 <router-link to="/" class="group sm:max-w-xs md:max-w-sm lg:max-w-lg xl:max-w-xl">
     <div class="relative m-2">
-        <img class="rounded-lg" :src="img">
+        <div class="group-hover:blur-sm">
+          <img class="rounded-lg" :src="img">
+        </div>
         
         <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <div class="bg-gray-900 bg-opacity-50 rounded-md px-2 text-white font-bold text-2xl">{{text}}</div>
+          <div class="group-hover:bg-opacity-100 bg-gray-900 bg-opacity-50 rounded-md px-2 text-white font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl">{{text}}</div>
         </div>
         <div class="absolute bottom-2 right-2">
           <div class="bg-white rounded-md p-1 font-bold inline-flex items-center space-x-1">
